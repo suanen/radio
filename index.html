@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conexão Musical</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img id="radio" src="radio.png" alt="Imagem do rádio" class="radio-img">
+        <h1>Vamos descobrir o que toca na estação do seu coração hoje?</h1>
+        
+        <!-- Formulário para o nome e data -->
+        <div id="formulario">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+            <label for="data">Data:</label>
+            <input type="date" id="data" name="data" required>
+            <button id="entrar">Entrar</button>
+        </div>
+
+        <!-- Saudação e escolha do número -->
+        <div id="saudacao" style="display: none;">
+            <p id="mensagem-saude"></p>
+            <label for="numero">Escolha um número de 0 a 30:</label>
+            <select id="numero">
+                <option value="" disabled selected>Escolha o número</option>
+            </select>
+            <button id="escolher-numero">Escolher número</button>
+        </div>
+
+        <!-- Exibição da frase -->
+        <div id="frase" style="display: none;">
+            <p id="mensagem-frase"></p>
+        </div>
+
+        <!-- Informações da música -->
+        <div id="musica" style="display: none;">
+            <h2>Vamos ouvir!</h2>
+            <p id="nome-musica"></p>
+            <p id="artista-musica"></p>
+            <p id="ano-lancamento"></p>
+            <a id="link-youtube" href="" target="_blank">Ouça no YouTube</a>
+        </div>
+
+        <div id="rodape">
+            <P><STRong>Ouça com atenção.</STRong></P>
+            <p>Volte amanhã para descobrirmos o que estará tocando para você.</p>
+            <P>Este site foi criado por Suanen e não deve ser compartilhado. <BR>
+            </BR>Ele é destinado a alguém muito especial, que, sempre que sentir minha falta ou tiver 
+            <BR></BR>vontade de falar comigo e não puder, poderá acessá-lo aqui.</P>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

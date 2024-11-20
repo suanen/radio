@@ -1,0 +1,89 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #ffe6f0; /* Tom suave de rosa */
+    text-align: center;
+    color: #444;
+}
+
+.container {
+    width: 90%;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.radio-img {
+    width: 250px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #ff4d4d; /* Vermelho suave */
+    font-family: 'Dancing Script', cursive; /* Fonte cursiva romântica */
+}
+
+#formulario {
+    margin: 20px 0;
+}
+
+input, select {
+    padding: 12px;
+    margin: 12px;
+    width: 220px;
+    border: 2px solid #f3a6c5; /* Rosa suave */
+    border-radius: 10px;
+    background-color: #fff4f7;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 24px;
+    border: none;
+    background-color: #ff7f7f; /* Rosa suave */
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff5f5f; /* Tom mais escuro de rosa */
+}
+
+#saudacao, #frase, #musica {
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#mensagem-especial {
+    margin-top: 40px;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    color: #ff4d4d;
+    font-style: italic;
+}
+
+#rodape {
+    margin-top: 60px;
+    font-size: 14px;
+    color: #888;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#rodape a {
+    color: #ff4d4d;
+    text-decoration: none;
+}
+
+#rodape a:hover {
+    text-decoration: underline;
+}
